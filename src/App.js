@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header style={{ height: '100vh' }}>
+        <h1>Joanna Sadkiewicz</h1>
+        <img src="" alt="not_found" />
+        <nav>
+          <ul><li><a href="#about">O mnie</a></li></ul>
+          <ul><li><a href="#projects">Projekty</a></li></ul>
+          <ul><li><a href="#contact">Kontakt</a></li></ul>
+        </nav>
       </header>
-    </div>
+      <body>
+        <section id="about" style={{ height: '100vh' }}>
+          <h2>O mnie</h2>
+        </section>
+        <section id="projects" style={{ height: '100vh' }}>
+          <h2>Moje projekty</h2>
+        </section>
+        <section id="contact" style={{ height: '100vh' }}>
+          <h2>Kontakt</h2>
+        </section>
+      </body>
+      <footer>
+        Wszystkie prawa zastrzeżone &copy;
+      </footer>
+    </>
   );
 }
 
