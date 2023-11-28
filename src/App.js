@@ -1,5 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Projects from "./components/Projects";
 
 function App() {
   return (
@@ -15,9 +16,7 @@ function App() {
       </header>
       <body>
         <About />
-        <section id="projects" style={{ height: '100vh' }}>
-          <h2>Moje projekty</h2>
-        </section>
+        <Projects />
         <Contact />
       </body>
       <footer>
