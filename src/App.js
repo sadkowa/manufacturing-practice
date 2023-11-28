@@ -1,3 +1,5 @@
+import About from "./components/About";
+
 function App() {
   return (
     <>
@@ -11,9 +13,7 @@ function App() {
         </nav>
       </header>
       <body>
-        <section id="about" style={{ height: '100vh' }}>
-          <h2>O mnie</h2>
-        </section>
+        <About />
         <section id="projects" style={{ height: '100vh' }}>
           <h2>Moje projekty</h2>
         </section>
