@@ -1,4 +1,5 @@
 import About from "./components/About";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -17,9 +18,7 @@ function App() {
         <section id="projects" style={{ height: '100vh' }}>
           <h2>Moje projekty</h2>
         </section>
-        <section id="contact" style={{ height: '100vh' }}>
-          <h2>Kontakt</h2>
-        </section>
+        <Contact />
       </body>
       <footer>
         Wszystkie prawa zastrzeżone &copy;
