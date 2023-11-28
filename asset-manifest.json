@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/manufacturing-practice/static/css/main.e6c13ad2.css",
-    "main.js": "/manufacturing-practice/static/js/main.feb2c8e7.js",
-    "static/js/787.d345b5f9.chunk.js": "/manufacturing-practice/static/js/787.d345b5f9.chunk.js",
-    "index.html": "/manufacturing-practice/index.html",
-    "main.e6c13ad2.css.map": "/manufacturing-practice/static/css/main.e6c13ad2.css.map",
-    "main.feb2c8e7.js.map": "/manufacturing-practice/static/js/main.feb2c8e7.js.map",
-    "787.d345b5f9.chunk.js.map": "/manufacturing-practice/static/js/787.d345b5f9.chunk.js.map"
+    "main.css": "./static/css/main.e6c13ad2.css",
+    "main.js": "./static/js/main.e4c83bb3.js",
+    "static/js/787.84dd724e.chunk.js": "./static/js/787.84dd724e.chunk.js",
+    "index.html": "./index.html",
+    "main.e6c13ad2.css.map": "./static/css/main.e6c13ad2.css.map",
+    "main.e4c83bb3.js.map": "./static/js/main.e4c83bb3.js.map",
+    "787.84dd724e.chunk.js.map": "./static/js/787.84dd724e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.feb2c8e7.js"
+    "static/js/main.e4c83bb3.js"
   ]
 }
